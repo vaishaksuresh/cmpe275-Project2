@@ -1,6 +1,10 @@
 cmpe275-Project2
 ================
 
+Complete Details: http://docs.mongodb.org/manual/tutorial/write-a-tumblelog-application-with-django-mongodb-engine/
+
+
+
 * Download the Zip file in your local disk
 * Assuming that you have Django and mongodb installed
 * Navigate to downloaded project path
