@@ -67,6 +67,7 @@ STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+    '/Users/vaishaksuresh/Semester2/CMPE275/dev/cmpe275-Project2/MOOCClient/static/',
 )
 
 # List of finder classes that know how to find static files in
@@ -78,7 +79,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = 'uun024$lbw&amp;=!7*!e1jd#0&amp;=uzh2v47t-0rrnk8!49khiwj#=3'
+SECRET_KEY = 'wfws0vu$*k^!kx&amp;u#2!fbkvk88^li!*yokq@gav@=^5n%2w!@2'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -103,6 +104,7 @@ ROOT_URLCONF = 'MOOCClient.urls'
 WSGI_APPLICATION = 'MOOCClient.wsgi.application'
 
 TEMPLATE_DIRS = (
+    "registeruser/templates",
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -115,6 +117,7 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'registeruser',
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
