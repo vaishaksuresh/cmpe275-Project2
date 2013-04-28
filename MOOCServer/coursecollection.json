@@ -1,0 +1,77 @@
+{
+    "courseId": "course1",
+    "category": "categoryId",
+    "title": "Title",
+    "Description": "My course",
+    "attachment": "PATH",
+    "quiz": "id1",
+    "grade": 5,
+    "submitDate": "DATE",
+    "version": "1",
+    "discussions": [
+        "discussionId1",
+        "discussionId2"
+    ],
+    "announcements": [
+        {
+            "announceId": "anid1",
+            "title": "Title",
+            "description": "desc",
+            "postDate": "DATE",
+            "status": 0
+        }
+    ],
+    "quizes": [
+        {
+            "quizId": "quizid1",
+            "questions": [
+                {
+                    "question": "Que1",
+                    "options": [
+                        "option1",
+                        "option2"
+                    ],
+                    "answer": "option1",
+                    "point": 1
+                },
+                {
+                    "question": "Que2",
+                    "options": [
+                        "option1",
+                        "option2"
+                    ],
+                    "answer": "option1",
+                    "point": 1
+                }
+            ],
+            "announceId": "anid1",
+            "title": "Title",
+            "description": "desc",
+            "postDate": "DATE",
+            "status": 0
+        },
+        {
+            "quizId": "quizid1",
+            "questions": [
+                {
+                    "question": "Que1",
+                    "options": [
+                        "option1",
+                        "option2"
+                    ],
+                    "answer": "option1",
+                    "point": 1
+                },
+                {
+                    "question": "Que2",
+                    "options": [
+                        "option1",
+                        "option2"
+                    ],
+                    "answer": "option1",
+                    "point": 1
+                }
+            ]
+        }
+    ]
+}
