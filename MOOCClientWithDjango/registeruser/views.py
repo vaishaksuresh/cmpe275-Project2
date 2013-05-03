@@ -1,5 +1,6 @@
 from django.shortcuts import render_to_response
 import json,requests
+<<<<<<< HEAD
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import RequestContext, loader
@@ -67,3 +68,10 @@ def bad_search(request):
     # been submitted!
     message = 'You searched for: %r' % request.GET['q']
     return HttpResponse(message)
+=======
+
+def home(request):
+	r = requests.get('https://www.coursera.org/maestro/api/topic/list?full=1')
+	return render_to_response('index.html',{'courses': r.json()})
+
+>>>>>>> a9c74d4ccfc05e6a99b0c910acbdeb553577e62d
